@@ -6,9 +6,14 @@ body {
 }
 
 img {
-  margin: 0 0 10px 0;
+  margin: 0 0 0 0;
   max-width: 100%;
   height: 50%;
+}
+
+li.nav-link a:link,a:visited,a:hover,a:active {
+  text-decoration: none;
+  color:#10f009;
 }
 
 .smallSection {
@@ -26,7 +31,24 @@ img {
 
 .list {
   list-style: solid inside url("");
-  font-size:2em;
+  font-size: 2em;
+}
+
+.nav-link {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 2em;
+  width: 200px;
+  border: 1px solid red;
+}
+
+.nav-icon {
+  display: inline-block;
+  border: 1px solid red;
+  position:relative;
+  top:26px;
+  margin:0;
 }
 
 .largeSection {}
@@ -35,11 +57,22 @@ img {
   background-image: url("../img/placeholder.jpg")
 }
 
+#nav {
+  display: inline-block;
+  border: 1px solid red;
+  margin:0;
+  padding:0;
+  height:70px;
+  line-height:70px;
+}
+
+#navigation-div {
+  padding:0 26px 26px 26px;
+}
+
 
 /*temporary*/
 
 div {
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
+  border: 1px solid red;
 }
