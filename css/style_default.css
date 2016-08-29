@@ -41,6 +41,8 @@ li.nav-link a:link,a:visited,a:hover,a:active {
   font-size: 2em;
   width: 200px;
   border: 1px solid red;
+/*  position:relative;
+  bottom:20px;*/
 }
 
 .nav-icon {
@@ -62,8 +64,8 @@ li.nav-link a:link,a:visited,a:hover,a:active {
   border: 1px solid red;
   margin:0;
   padding:0;
-  height:70px;
-  line-height:70px;
+/*  height:70px;
+  line-height:70px;*/
 }
 
 #navigation-div {
