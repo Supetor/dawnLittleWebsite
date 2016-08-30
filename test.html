@@ -3,125 +3,47 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>test</title>
-  <style type="text/css">
-  .clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-  }
-  
-  .clearfix {
-    display: inline-block;
-  }
-  /* start commented backslash hack \*/
-  
-  * html .clearfix {
-    height: 1%;
-  }
-  
-  .clearfix {
-    display: block;
-  }
-  /* close commented backslash hack */
-  
-  body {
-    margin: 0;
-    /*background-color: #10f009;*/
-    font-size: 62.5%;
-    font-family: sans-serif;
-  }
-  
-  img {
-    margin: 0 0 0 0;
-    max-width: 100%;
-    height: 50%;
-  }
-  
-  .header {
-    min-height: 70px;
-    clear: both
-  }
-  
-  .logo {
-    width: 20%;
-    float: left;
-  }
-  
-  .nagivation {
-    width: 80%;
-    float: right;
-  }
-  
-  .nagivation #nav {}
-  
-  .smallSection {
-    margin: 100px;
-  }
-  
-  .paragraph {
-    font-size: 2em;
-    max-width: 500px;
-  }
-  
-  .title {
-    font-size: 2.4em;
-  }
-  
-  .list {
-    list-style: solid inside url("");
-    font-size: 2em;
-  }
-  
-  .nav-link {
-    list-style-type: none;
-    display: inline-block;
-    text-align: center;
-    font-size: 2em;
-    padding: 10px 5px;
-    border: 1px solid red;
-  }
-  
-  .nav-icon {
-    display: inline-block;
-    border: 1px solid red;
-  }
-  
-  .largeSection {}
-  
-  #section1 {
-    background-image: url("../img/placeholder.jpg")
-  }
-  /*temporary*/
-  
-  div {
-    border: 1px solid red;
-  }
-  </style>
+  <title>Dawn Little</title>
+  <link rel="stylesheet" type="text/css" href="css/style_default.css">
+  <link rel="stylesheet" type="text/css" media="only screen and (min-width:768px) and
+(max-width:980px)" href="css/style_768.css">
+  <link rel="stylesheet" type="text/css" media="only screen and (min-width:600px) and
+(max-width:767px)" href="css/style_600.css">
+  <link rel="stylesheet" type="text/css" media="only screen and (min-width:300px) and
+(max-width:599px)" href="css/style_300.css">
 </head>
 
 <body>
+  <!-- Social Media Buttons -->
+  <div class="social-buttons">
+    <ul class="social-buttons-list">
+      <li>
+        <a href=""><img src="img/Twitter.png" alt="" class="social-button"></a>
+      </li>
+      <li>
+        <a href=""><img src="img/Facebook.png" alt="" class="social-button"></a>
+      </li>
+      <li>
+        <a href=""><img src="img/Snapchat.png" alt="" class="social-button"></a>
+      </li>
+    </ul>
+  </div>
   <!-- Dawn Little -->
   <div id="section1" class="largeSection">
     <!-- Navigation -->
-    <div class="header clearfix">
+    <div id="navigation-div">
       <img src="img/herbalife-icon.png" width="70px" height="70px" class="nav-icon">
-      <div class="nagivation">
-        <ul id="nav">
-          <li class="nav-link">Who am I</li>
-          <li class="nav-link">What I do </li>
-          <li class="nav-link">3-Day Trial</li>
-          <li class="nav-link">Challenges</li>
-          <li class="nav-link">Become a Coach</li>
-        </ul>
-      </div>
+      <ul id="nav">
+        <li class="nav-link"><a href="#section1">Who am I</a></li>
+        <li class="nav-link"><a href="#section2">What I do</a></li>
+        <li class="nav-link"><a href="#section3">3-Day Trial</a></li>
+        <li class="nav-link"><a href="#section4">Challenges</a></li>
+        <li class="nav-link"><a href="#section5">Become a Coach</a></li>
+      </ul>
     </div>
     <div class="smallSection">
       <p class="paragraph">
-        <span class="title">Client Name<br /></span> Hi, I'm a wife, mother, and Personal Wellness Coach with Herbalife Nutrition. My super power - I change lives.
+        <span class="title">Dawn Little<br /></span> Hi, I'm a wife, mother, and Personal Wellness Coach with Herbalife Nutrition. My super power - I change lives.
       </p>
     </div>
   </div>
@@ -196,6 +118,21 @@
       </ul>
     </div>
   </div>
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+  var Tawk_API = Tawk_API || {},
+    Tawk_LoadStart = new Date();
+  (function() {
+    var s1 = document.createElement("script"),
+      s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/57c437782b03647ba16d0b63/default';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
 </body>
 
 </html>
